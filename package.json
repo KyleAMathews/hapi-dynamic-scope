@@ -1,0 +1,26 @@
+{
+  "name": "hapi-dynamic-scope",
+  "description": "Create dynamic route scopes based on information in the request",
+  "version": "1.0.0",
+  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "bugs": {
+    "url": "https://github.com/KyleAMathews/hapi-dynamic-scope/issues"
+  },
+  "homepage": "https://github.com/KyleAMathews/hapi-dynamic-scope",
+  "keywords": [
+    "hapi",
+    "scope"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/KyleAMathews/hapi-dynamic-scope.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "deep-get-set": "^0.1.1"
+  }
+}
