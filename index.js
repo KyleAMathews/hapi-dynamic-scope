@@ -3,7 +3,7 @@ var deep = require('deep-get-set');
 exports.register = function(plugin, options, next) {
   plugin.servers[0].ext('onPreAuth', function(request, next) {
     var i, matches, result, scope, _i, _len, _ref;
-    if (request.route.auth.scope !== null) {
+    if (request.route.auth.scope !== null && request.route.auth.scope !== undefined) {
       _ref = request.route.auth.scope;
 
       if (_ref.constructor !== Array) {
