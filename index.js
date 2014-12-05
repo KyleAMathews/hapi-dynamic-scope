@@ -5,6 +5,11 @@ exports.register = function(plugin, options, next) {
     var i, matches, result, scope, _i, _len, _ref;
     if (request.route.auth.scope !== null) {
       _ref = request.route.auth.scope;
+
+      if (_ref.constructor !== Array) {
+        _ref = [_ref];
+      }
+
       for (i = _i = 0, _len = _ref.length; _i < _len; i = ++_i) {
         scope = _ref[i];
         matches = scope.match(/{(.*)}/);
