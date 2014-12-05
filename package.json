@@ -1,7 +1,7 @@
 {
   "name": "hapi-dynamic-scope",
   "description": "Create dynamic route scopes based on information in the request",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "author": "Kyle Mathews <mathews.kyle@gmail.com>",
   "bugs": {
     "url": "https://github.com/KyleAMathews/hapi-dynamic-scope/issues"
