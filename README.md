@@ -1,6 +1,8 @@
 hapi-dynamic-scope
 ==================
 
+## DEPRECATED: Functionality added to core Hapi.js in 8.5 https://github.com/hapijs/hapi/pull/2532
+
 Create dynamic route scopes based on information in the request.
 
 Configuration > code.
